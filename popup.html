@@ -1,0 +1,35 @@
+<html>
+  <head>
+	<title>Image Flip and Rotate</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/popup.css">
+  </head>
+  <body>
+  <h2 class="title">Image Flip n Rotate</h2>
+	<p id="alert">Not a image page.</p>
+	<div style="display:none" class="image-control">
+	<div class="slidecontainer">
+		<input type="range" min="-180" max="180" value="0" class="slider" id="slider-input">
+	</div>
+	<label id="manual-container">Deg: <input type="number" value="0" id="manual-input" min="-180" max="180" />
+	
+		<button id="reset">Reset</button>
+	</label>
+	
+	<div id="select-input">
+		<button id="rotate90">+90°</button>
+		<button id="rotate-90">-90°</button>
+		<button id="rotate180">+180°</button>
+		<button id="rotate-180">-180°</button>
+	</div>
+	
+	<div id="fip-container">
+		<p><label><input type="checkbox" id="flipX" /> Flip horizontal ↔</label></p>
+		<p><label><input type="checkbox" id="flipY" /> Flip vertical ↕</label></p>
+	<div>
+</div>
+	
+	
+    <script src="js/popup.js"></script>
+  </body>
+</html>

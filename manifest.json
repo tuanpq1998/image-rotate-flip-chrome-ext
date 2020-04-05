@@ -1,7 +1,7 @@
 {
-  "name": "Image Style Editor",
-  "description": "Changing image style lively",
-  "version": "1.0",
+  "name": "Image Flip and Rotate",
+  "description": "Transform image lively",
+  "version": "1.1",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"

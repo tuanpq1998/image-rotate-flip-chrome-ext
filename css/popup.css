@@ -73,4 +73,13 @@ button {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 5px;
+	cursor : pointer;
+}
+
+#download{
+	margin: 5px 10px;
+}
+
+#png-ask {
+    font-size: 12px;
 }
